@@ -41,7 +41,7 @@ Run on both VMs:
 ```powershell
 Install-WindowsFeature -name Web-Server -IncludeManagementTools
 Customize index.html with different content on each server.
-STEP 6 — Create Load Balancer (Layer 4)
+### STEP 6 — Create Load Balancer (Layer 4)
 
 Name: lb-production
 SKU: Standard
@@ -49,9 +49,9 @@ Add both VMs to backend pool
 Create HTTP health probe (port 80)
 Create load balancing rule (port 80)
 
-STEP 7 — Test Load Balancer
+### STEP 7 — Test Load Balancer
 Open http://<LB-Public-IP> and refresh.
-STEP 8 — Create Application Gateway (Layer 7)
+### STEP 8 — Create Application Gateway (Layer 7)
 
 Name: appgw-production
 Tier: Standard V2
@@ -60,15 +60,15 @@ Add both VMs to backend pool
 Create HTTP listener (port 80)
 Create routing rule
 
-STEP 9 — Test Application Gateway
+### STEP 9 — Test Application Gateway
 Open http://<APPGW-Public-IP>
-STEP 10 — Create User Defined Route (UDR)
+### STEP 10 — Create User Defined Route (UDR)
 
 Create Route Table: rt-web-servers
 Add route: 0.0.0.0/0 → Next hop: Internet
 Associate to subnet-app
 
-STEP 11 — Network Watcher
+### STEP 11 — Network Watcher
 
 Enable Network Watcher
 Use Topology, Next Hop, and Connection Troubleshoot
