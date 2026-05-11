@@ -2,10 +2,15 @@
 
 **Load Balancer + Application Gateway + UDR + Network Watcher**
 
-Advanced Azure Networking lab demonstrating traffic distribution, Layer 4 & Layer 7 load balancing, custom routing with UDR, and network monitoring.
-
 ## 🎯 Scenario
-A company wants to distribute traffic across multiple web servers, publish applications professionally, control routing, and monitor the network.
+**Contoso Corporation**, a rapidly growing e-commerce company, is facing high traffic loads on their web application. They need a robust solution to:
+
+- Distribute incoming traffic efficiently across multiple web servers
+- Implement advanced Layer 7 routing for their modern web application
+- Control outbound traffic using custom routing rules
+- Proactively monitor and troubleshoot network issues
+
+This lab demonstrates a complete enterprise-grade networking solution.
 
 ## 🏗️ Architecture
 
@@ -16,17 +21,10 @@ A company wants to distribute traffic across multiple web servers, publish appli
 - Azure Application Gateway (Layer 7)
 - User Defined Routes (UDR)
 - Network Watcher
-- IIS Web Servers
 
 ## 📋 Lab Content
 - [Step-by-Step Guide](./Step-by-Step-Guide.md)
 - [Verification & Testing](./Verification.md)
-
-## ✅ Skills Gained
-- High availability & traffic distribution
-- Layer 4 vs Layer 7 load balancing
-- Custom routing with UDR
-- Network monitoring and troubleshooting
 
 **Lab Completed Successfully!** 🎉
 
