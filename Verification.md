@@ -19,7 +19,7 @@
 ### 4. Network Watcher Validation
 - Topology: Full network diagram visible
 - Next Hop: Validates UDR routing correctly
-- Connection Trouble Shoot
+- Connection Troubleshoot
   
 ### 5. From VM Effective Route  
 
