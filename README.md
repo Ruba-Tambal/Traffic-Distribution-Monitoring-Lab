@@ -2,9 +2,6 @@
 
 **Load Balancer + Application Gateway + UDR + Network Watcher**
 
-![Azure](https://img.shields.io/badge/Azure-Networking-blue?style=for-the-badge&logo=microsoftazure)
-![AZ-104](https://img.shields.io/badge/AZ--104-Hands--on-orange?style=for-the-badge)
-
 Advanced Azure Networking lab demonstrating traffic distribution, Layer 4 & Layer 7 load balancing, custom routing with UDR, and network monitoring.
 
 ## 🎯 Scenario
