@@ -19,12 +19,15 @@
 ### 4. Network Watcher Validation
 - Topology: Full network diagram visible
 - Next Hop: Validates UDR routing correctly
+- Connection Trouble Shoot
+  
+### 5. From VM Effective Route  
 
 ## 📸 Recommended Screenshots
 - Load Balancer Backend Pool + Health Status
 - Application Gateway Backend Health
 - Route Table & UDR Configuration
-- Network Watcher Topology
+- Network Watcher 
 - Browser showing both web servers
 
 **Lab Completed Successfully!** 🎉
