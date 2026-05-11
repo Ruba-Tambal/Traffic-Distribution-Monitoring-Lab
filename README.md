@@ -1,4 +1,4 @@
-# Project 3: Traffic Distribution & Monitoring Lab
+# Traffic Distribution & Monitoring Lab
 
 **Load Balancer + Application Gateway + UDR + Network Watcher**
 
