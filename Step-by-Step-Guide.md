@@ -22,7 +22,7 @@ Contoso Corporation is facing high traffic loads on their e-commerce web applica
 
 ## 🏗️ Architecture
 
-![Architecture](./diagrams/traffic-monitoring-architecture.png)
+![Architecture](./diagrams/architecture.png)
 
 ---
 
