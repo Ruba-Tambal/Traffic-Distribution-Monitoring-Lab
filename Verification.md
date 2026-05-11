@@ -1,6 +1,6 @@
 
 
-# Verification & Testing - Project 3
+# Verification & Testing 
 
 ## ✅ Test Results
 
